@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium]" parallel="tests">
+  <test thread-count="5" name="Chrome(failed)" parallel="tests">
+    <classes>
+      <class name="com.edureka.testng.ComposeEmailWithAttachment">
+        <methods>
+          <include name="composeEmail"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.edureka.testng.ComposeEmailWithAttachment -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Selenium] -->
